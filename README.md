@@ -2,3 +2,8 @@
 dataディレクトリ内にはImageNet-1kのクラスを日本語表記に変換するjsonファイルが格納されています。
 jasonファイルはスクリプト内から参照するようになっています。
 画像分類はImageNetにて事前学習済みのResnext34で行います。
+
+This script performs image classification on three images after cropping images into 25-, 50-, and 100-pixel squares centered at the coordinate points specified in the GUI.
+In the data directory, there is a json file that converts ImageNet-1k classes into Japanese notation.
+The jason file is referenced from within the script.
+Image classification is performed by Resnext34, which has been pre-trained by ImageNet.
